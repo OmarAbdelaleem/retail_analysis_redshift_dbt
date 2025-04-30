@@ -39,4 +39,9 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     example:
-      +materialized: table
+      +materialized: table #All models in example/ are tables
+    staging:
+      +materialized: view #All models in staging/ are views
+        # +materialized: incremental
+    mart:
+      +materialized: table #All models in marts/ are tables
