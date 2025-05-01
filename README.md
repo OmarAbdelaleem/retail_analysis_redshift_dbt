@@ -28,7 +28,7 @@
 ### 2. Deploy the Pipeline
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/retail_analysis_redshift_dbt.git
+git clone https://github.com/OmarAbdelaleem/retail_analysis_redshift_dbt.git
 
 # Install dependencies
 pip install -r requirements.txt
