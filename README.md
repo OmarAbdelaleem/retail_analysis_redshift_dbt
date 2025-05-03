@@ -5,7 +5,7 @@
 
 ## 🔧 Tech Stack
 - **Data Warehouse**: Amazon Redshift
-- **Transformation**: dbt (SQL-based modeling)
+- **Transformation**: dbt cloud (SQL-based modeling)
 - **Orchestration**: Airflow (optional)
 - **BI Visualization**: Metabase/Tableau
 - **Data Modeling**: Star Schema
